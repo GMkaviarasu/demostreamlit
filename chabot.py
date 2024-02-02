@@ -7,7 +7,7 @@ import pandas as pd
 from io import StringIO
 
 # Set OpenAI API Key
-os.environ["OPENAI_API_KEY"] = os.getenv(st.secrets('OPENAI_API_KEY')) 
+os.environ["OPENAI_API_KEY"] = st.secrets["openai_api_key"]
 
 # Streamlit App Function
 def main():
