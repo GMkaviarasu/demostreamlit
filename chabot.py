@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["openai_api_key"]
 
 # Streamlit App Function
 def main():
-    st.title("Changepond-Chatbot App")
+    st.title("Changepond AI Bot")
 
     # File Upload
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
